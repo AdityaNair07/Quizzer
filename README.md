@@ -12,6 +12,28 @@ Welcome to **Quizzer**, a simple quiz app built using **React Native Expo**. Thi
 - **Submit button** on the last question to view final score
 - **Result page** displaying the user's score
 
+## ScreenShots
+
+### Homepage
+
+![Quizzer App Homepage](image-1.png)
+
+### Questions
+
+![Quizzer App Questions Page](image-2.png)
+
+### Correct Selection
+
+![Quizzer App Questions Page](image-3.png)
+
+### Incorrect Selection
+
+![Quizzer App Questions Page](image-4.png)
+
+### Result
+
+![Quizzer App Result Page](image-5.png)
+
 ## Getting Started
 
 ### Installation
@@ -40,22 +62,18 @@ To install and run the Quizzer app, follow these steps:
 
 After starting the app, you'll have options to open the app in a:
 
-- Development build
-- Android emulator
-- iOS simulator
-- Expo Go, a limited sandbox for trying out app development with Expo
-
-Choose your preferred option to run the app.
-
-Development
-The app uses file-based routing, and you can start developing by editing the files inside the app directory.
-
 In the output, you'll find options to open the app in a
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+Choose your preferred option to run the app.
+
+Development:
+
+The app uses file-based routing, and you can start developing by editing the files inside the app directory.
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
