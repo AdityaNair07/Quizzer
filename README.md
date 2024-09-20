@@ -1,20 +1,54 @@
-# Welcome to your Expo app 👋
+# Quizzer
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## A Basic Quiz App Built with React Native Expo
 
-## Get started
+Welcome to **Quizzer**, a simple quiz app built using **React Native Expo**. This app allows users to take a 10-question quiz, with the ability to navigate through questions only after selecting an option. The app features a progress bar at the top to track the user's progress, and a submit button on the last question to view the final score.
 
-1. Install dependencies
+## Features
+
+- **10-question quiz** with option selection
+- **Progress bar** to track user progress
+- **Correct or incorrect selection styling**
+- **Submit button** on the last question to view final score
+- **Result page** displaying the user's score
+
+## Getting Started
+
+### Installation
+
+To install and run the Quizzer app, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/AdityaNair07/Quizzer.git
+
+
+2. **Install dependencies:**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Start the app:**
 
    ```bash
     npx expo start
    ```
+
+## Running the App
+
+After starting the app, you'll have options to open the app in a:
+
+- Development build
+- Android emulator
+- iOS simulator
+- Expo Go, a limited sandbox for trying out app development with Expo
+
+Choose your preferred option to run the app.
+
+Development
+The app uses file-based routing, and you can start developing by editing the files inside the app directory.
 
 In the output, you'll find options to open the app in a
 
