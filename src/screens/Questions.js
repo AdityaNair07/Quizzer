@@ -2,6 +2,7 @@ import { View, Text, Button, Pressable, FlatList, Alert } from "react-native";
 import React, { useEffect, useState } from "react";
 import tw from "twrnc";
 import { questions } from "../../assets/data/Questions";
+import * as Progress from "react-native-progress";
 
 const Questions = ({ navigation }) => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -33,8 +34,15 @@ const Questions = ({ navigation }) => {
 
   return (
     <View style={tw.style("w-full h-full p-5")}>
-      <Text style={tw.style("font-bold text-xl text-orange-600 mb-5")}>
-        {questions[currentQuestion].question}
+      <Progress.Bar
+        progress={(currentQuestion + 1) / questions.length}
+        color="orange"
+        width={null}
+        height={20}
+        borderRadius={5}
+      />
+      <Text style={tw.style("font-bold text-xl text-orange-600 mb-5 mt-10")}>
+        {currentQuestion + 1 + ") " + questions[currentQuestion].question}
       </Text>
       {questions[currentQuestion].options.map((option, index) => {
         return (
